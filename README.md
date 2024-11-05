@@ -33,8 +33,8 @@ The input data (`input.txt`) provides city connections in the format `City1,City
 4. **Output**: The path from the start to the end city is printed if found, or `None` if no path exists.
 
 Example:
-[!Arad -> Bucharest](arad-bucharest-romania.png)<br>
-[!Path chosen](path-chosen.png)<br>
+![Arad -> Bucharest](arad-bucharest-romania.png)<br>
+![Path chosen](path-chosen.png)<br>
 
 ### Setup
 

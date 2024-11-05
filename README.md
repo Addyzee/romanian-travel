@@ -15,7 +15,8 @@ The input data (`input.txt`) provides city connections in the format `City1,City
 
 ### Project Structure
 
-- **Node Class**: Each city is represented as a `Node` object, which stores the city's name, a dictionary of its neighbors and distances, and a `visited` flag.
+- **Node Class**: Each city is represented as a `Node` object, which stores the city's name, a dictionary of its neighbors and distances, and a `visited` flag.<br>
+![Romania Map](romania.png)<br>
 - **Graph Construction**: A dictionary of cities (`cities_dict`) is created, and each city is linked with its neighbors and distances.
 - **DFS Function**: A recursive DFS function `dfs()` traverses the graph to find a path from the start node to the destination node.
 - **Reset Function**: `reset_visited()` resets the `visited` attribute of each node after each DFS traversal.
@@ -30,6 +31,10 @@ The input data (`input.txt`) provides city connections in the format `City1,City
    - DFS starts from the `start_city` and recursively explores neighbors.
    - The path is stored and updated until the `end_city` is reached, or there are no more unvisited neighbors.
 4. **Output**: The path from the start to the end city is printed if found, or `None` if no path exists.
+
+Example:
+[!Arad -> Bucharest](arad-bucharest-romania.png)<br>
+[!Path chosen](path-chosen.png)<br>
 
 ### Setup
 

@@ -10,7 +10,6 @@ The input data (`input.txt`) provides city connections in the format `City1,City
 2. [How it Works](#how-it-works)
 3. [Setup](#setup)
 4. [Usage](#usage)
-5. [Example Output](#example-output)
 
 ---
 

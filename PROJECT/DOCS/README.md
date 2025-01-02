@@ -7,18 +7,22 @@ This project demonstrates how to use a Depth-First Search (DFS) algorithm to fin
 The project takes an input file with city connections (name of city 1, name of city 2, distance between them) and builds a graph. It then uses DFS to explore paths from a specified starting city to a destination city.
 
 ### Example Map
+
 ![Romania Map](/romania.png)
 
 ### Example Path
+
 ![Arad to Bucharest](/path-chosen.png)
 
 ### How It Works
 
 1. **Graph Representation**:
+
    - The cities are represented as nodes, each storing the neighboring cities and distances.
    - The graph is loaded from a file, which lists city connections in the format: `City1, City2, Distance`.
 
 2. **Depth-First Search**:
+
    - The DFS algorithm starts from a given starting city and explores all possible routes recursively until it finds the destination city.
    - If a path is found, it will print the cities in the order they are visited.
 
@@ -34,7 +38,8 @@ The project takes an input file with city connections (name of city 1, name of c
 ### Setup
 
 1. **Requirements**:
-   - Python 3.x
+
+   - Python 3.9 or higher
 
 2. **File Format**:
    - The input file `input.txt` should contain lines with the format: `City1, City2, Distance`.
@@ -42,6 +47,7 @@ The project takes an input file with city connections (name of city 1, name of c
 ### Usage
 
 1. **Run the Script**:
+
    - Set the starting and destination cities in the code.
    - The program will then find a route from the start city to the destination city (if one exists) and print the path.
 
@@ -58,5 +64,3 @@ The project takes an input file with city connections (name of city 1, name of c
      ```
      Path from Arad to Bucharest : Arad -> Zerind -> Oradea -> Sibiu -> Fagaras -> Bucharest
      ```
-
-
